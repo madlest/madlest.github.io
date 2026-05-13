@@ -16,8 +16,9 @@
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="800" />
     <meta property="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://madlest.github.io/ref.html" />
     <link
-        href="https://fonts.googleapis.com/css2?display=swap&family=Bubbler+One:ital,wght@0,400;1,400&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+        href="https://fonts.googleapis.com/css2?display=swap&family=Bubbler+One:ital,wght@0,400;1,400&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900"
         rel="stylesheet" type="text/css" />
     <style>
         html,
@@ -187,6 +188,16 @@
             overflow-x: hidden;
             word-wrap: break-word;
             background-color: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Bubbler One', sans-serif;
         }
 
         :root {
@@ -266,6 +277,28 @@
             color: inherit;
             text-decoration: underline;
             transition: color 0.25s ease;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.85rem 1.25rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-radius: 0.35rem;
+            background-color: #000000;
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-1px);
+            background-color: #333333;
         }
 
         a[onclick]:not([href]) {
@@ -1207,7 +1240,7 @@
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <p><a href="index.html" style="display:inline-block;margin:0 0 1.25rem;padding:0.85rem 1.25rem;background:#000;color:#fff;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:0.95rem;font-weight:700;letter-spacing:0.05em;border-radius:0.35rem;">← Back to Home</a></p>
+                <p><a href="index.html" class="button">← Back to Home</a></p>
                 <h1 id="text01"><strong>Madlest&#39;s OC References</strong></h1>
                 <hr id="divider02" class="full">
                 <p id="text02">General Information</p>
